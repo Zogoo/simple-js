@@ -1,8 +1,15 @@
 # SIMPLE JS
 
-Event related Object oriented js front-end frame work. 
+Panel related Object oriented js front-end very lite framework. 
 
-Event will register on html panel. All events catch by only one places and event and items will dispatch to panel-related object. 
+Event will be register on html panel(some window of you ui, not each button and selector). And all events are catched by only one places, then event and items will be pass to panel-related object. 
+
+Example: Use case
+1. Catching all events entire dashboard window 
+2. User click dashboard refresh button
+3. Event and refresh button paramters are pass to Dashboard.js
+4. Dashboard.js is get data from back-end
+5. Calculate and update old status.
 
 That's it simple and fast.:+1:
 
