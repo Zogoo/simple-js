@@ -1,17 +1,18 @@
-# SIMPLE JS
+# Simple event dispatcher
 
-Panel related Object oriented js front-end very lite framework. 
+Object oriented event dispatcher framework.
 
-Event will be register on html panel(some window of you ui, not each button and selector). And all events are catched by only one places, then event and items will be pass to panel-related object. 
+This framework help you manage your JS code cleanly. Escpecially if your UI requires work on lot of events.
 
-Example: Use case
-1. Catching all events entire dashboard window 
-2. User click dashboard refresh button
-3. Event and refresh button paramters are pass to Dashboard.js
-4. Dashboard.js is get data from back-end
-5. Calculate and update old status.
+# How it works
 
-That's it simple and fast.:+1:
+It will catch events from entire page dispatch to your defined class with target object. With your defined class you can implement logics OOP programming style.
+
+For example: When you have dashboard page with lot of buttons. And when user click dashboard refresh button.
+
+1. Event and refresh button's target objects are passes to Dashboard.js
+2. Dashboard.js can have ajax functions retreive all new data.
+3. Do some calculation in side of JS and update those data to UI.
 
 Manage your events and create your object oriented js structure.
 
