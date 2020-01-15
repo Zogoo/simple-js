@@ -2,7 +2,7 @@
 
 Object oriented event dispatcher framework.
 
-This framework help you manage your JS code cleanly. Escpecially if your UI requires work on lot of events.
+This framework help you manage your JS code cleanly. Especially if your UI requires work on lot of events.
 
 # How it works
 
