@@ -1,5 +1,7 @@
 # Simple event dispatcher
 
+Note: This framework build for IE6-IE8 on poor specific machines.
+
 Object oriented event dispatcher framework.
 
 This framework help you manage your JS code cleanly. Especially if your UI requires work on lot of events.
